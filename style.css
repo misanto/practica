@@ -1,0 +1,124 @@
+
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu{
+    flex-direction: row;
+    align-items: center;
+}
+
+.bahram{
+    width: 70px;
+height: 18px;
+left: 490px;
+top: 69px;
+
+padding:50px;
+}
+
+.popular{
+    height: 22px;
+left: 0%;
+right: 90.08%;
+top: calc(50% - 22px/2);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+padding:50px;
+}
+
+.new{
+    width: 73px;
+    height: 35px;
+    left: 741px;
+    top: 58px;
+    
+    background: #FF5480;
+    border-radius: 10px;
+    height: 22px;
+left: 22.28%;
+right: 72.03%;
+top: calc(50% - 22px/2);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+}
+
+.rating{
+    height: 22px;
+left: 40.33%;
+right: 45.04%;
+top: calc(50% - 22px/2);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+padding:50px;
+}
+
+.topics{
+    height: 22px;
+left: 40.33%;
+right: 45.04%;
+top: calc(50% - 22px/2);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+padding:50px;
+}
+
+.subscribe{
+    height: 22px;
+left: 87.64%;
+right: 0%;
+top: calc(50% - 22px/2);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+padding:50px;
+}
+
+.titol{
+    width: 236px;
+height: 65px;
+left: 465px;
+top: 225px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 58px;
+
+/* or 161% */
+letter-spacing: -0.225px;
+
+
+}
+
+.logo{
+    flex-direction: column;
+}
+
+.imatge1{
+    flex-direction: column;
+}
