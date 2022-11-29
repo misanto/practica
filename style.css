@@ -7,21 +7,13 @@
     
 }
 
-.menu{
+.logo{
     flex-direction: row;
-    align-items: center;
+    margin: 90px;
 }
 
-.bahram{
-    width: 70px;
-height: 18px;
-left: 490px;
-top: 69px;
 
-padding:50px;
-}
-
-.popular{
+.header{
     height: 22px;
 left: 0%;
 right: 90.08%;
@@ -35,69 +27,13 @@ line-height: 22px;
 padding:50px;
 }
 
+.img{
+    height:100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../practica/assets/imgs/images.jpeg);
+}
 .new{
-    width: 73px;
-    height: 35px;
-    left: 741px;
-    top: 58px;
-    
-    background: #FF5480;
-    border-radius: 10px;
-    height: 22px;
-left: 22.28%;
-right: 72.03%;
-top: calc(50% - 22px/2);
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-}
-
-.rating{
-    height: 22px;
-left: 40.33%;
-right: 45.04%;
-top: calc(50% - 22px/2);
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-padding:50px;
-}
-
-.topics{
-    height: 22px;
-left: 40.33%;
-right: 45.04%;
-top: calc(50% - 22px/2);
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-padding:50px;
-}
-
-.subscribe{
-    height: 22px;
-left: 87.64%;
-right: 0%;
-top: calc(50% - 22px/2);
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-padding:50px;
-}
-
-.titol{
     width: 236px;
 height: 65px;
 left: 465px;
@@ -112,13 +48,87 @@ line-height: 58px;
 /* or 161% */
 letter-spacing: -0.225px;
 
+color: #000000;
+
 
 }
 
 .logo{
     flex-direction: column;
+    width: 236px;
+    height: 65px;
+    left: 465px;
+    top: 225px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    
+    /* or 161% */
+    letter-spacing: -0.225px;
+    
+    color: #000000;
+    
+        
+
 }
 
-.imatge1{
-    flex-direction: column;
+.descripcio{
+    width: 585px;
+    height: 81px;
+    left: 465px;
+    top: 319px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    
+    /* or 178% */
+    letter-spacing: -0.1125px;
+    
+    color: #000000;
+    
+    
 }
+
+.images {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+ .t1{
+    width: 377px;
+    height: 25px;
+    left: 465px;
+    top: 918px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 58px;
+    
+    /* or 362% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+    
+    color: #9B9B9B;
+
+ }
+  
+  
+  
+  .imatge1 {
+    width: 638px;
+left: 432px;
+top: 540px;
+
+
+  }
+  
