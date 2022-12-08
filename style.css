@@ -7,11 +7,6 @@
     
 }
 
-.logo{
-    flex-direction: row;
-    margin: 10px;
-}
-
 
 .nav-item{
     height: 22px;
@@ -70,7 +65,8 @@ color: #000000;
     letter-spacing: -0.225px;
     
     color: #000000;
-    
+    margin-top: 100px;
+    margin-bottom: 100px;
         
 
 }
@@ -121,16 +117,6 @@ color: #000000;
     color: #9B9B9B;
 
  }
-  
-  
-  
-  .imatge1 {
-    width: 638px;
-left: 432px;
-top: 540px;
-
-
-  }
   
   .background-img2{
     flex-direction: row;
@@ -198,6 +184,130 @@ line-height: 32px;
 letter-spacing: -0.1px;
 
 color: #9B9B9B;
+ }
 
+
+.boton{
+    flex-direction: row;
+    display: flex;
+    justify-content:center;
+}
+ .button{
+    box-sizing: border-box;
+
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 2px solid #FF5480;
+border-radius: 40px;
+
+   
+left: 21.08%;
+right: 20.1%;
+top: calc(50% - 33px/2 - 0.5px);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+/* identical to box height */
+letter-spacing: -0.5px;
+
+color: #FF5480;
+margin:200px;
 
  }
+
+ .topics{
+    width: 236px;
+height: 65px;
+left: 465px;
+top: 5654px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 58px;
+
+/* or 161% */
+letter-spacing: -0.225px;
+
+color: #000000;
+margin-left:140px;
+
+ }
+
+ .gird{
+    display: flex;
+    justify-content: center;
+ }
+
+ 
+.column{
+    width: 276px;
+height: 146px;
+left: 1357px;
+top: 5751px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0835598);
+border-radius: 8px;
+}
+
+.txt{
+    width: 97px;
+height: 32px;
+left: 545px;
+top: 5808px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 58px;
+
+/* or 322% */
+display: flex;
+
+letter-spacing: -0.1125px;
+
+color: #111210;
+
+
+}
+
+h3 {
+    width: 685px;
+height: 65px;
+left: 711px;
+top: 6263px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+line-height: 58px;
+
+/* or 121% */
+display: flex;
+align-items: center;
+letter-spacing: -0.3px;
+
+color: #111210;
+
+
+  }
+  
+  .form input {
+    border-radius: 9px;
+  }
+  .text {
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
