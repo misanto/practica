@@ -147,6 +147,28 @@ ul>li>a {
   background-image: url(../assets/imgs/14.png);
 }
 
+/* imatges de la pagina #POSTS */
+
+.image15 {
+    background-image: url(../assets/imgs/15.png);
+}
+
+.image16 {
+    background-image: url(../assets/imgs/16.png);
+}
+
+.image17 {
+    background-image: url(../assets/imgs/17.png);
+}
+
+.image18 {
+    background-image: url(../assets/imgs/18.png);
+}
+
+.image19 {
+    background-image: url(../assets/imgs/19.png);
+}
+
 /* fi de la seccio de imatges */
 
 .col-lg-6 div {
@@ -294,22 +316,12 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 text-align: right;
-
-color: #9B9B9B;
 }
-
 /* Fi del codi de footer */
 
 /* Fi del codi de #NEW */
 
 /* Inici del codi de #POST */
-
-.posts{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .subtitol2{
     font-family: 'Open Sans';
@@ -321,7 +333,32 @@ line-height: 46px;
 /* or 164% */
 letter-spacing: -0.175px;
 
-color: #111210;
 
+}
 
+.row-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.descripcio{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: flex-start;
+}
+
+.señor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tomas{
+    height: 82px;
+    width: 82px;
+    justify-content: center;
+    margin-bottom: 182px;
 }
