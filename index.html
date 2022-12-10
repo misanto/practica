@@ -1,244 +1,372 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
 
-
-  <link rel="stylesheet" href="style.css" />
+  <title>MENU</title>
 </head>
 
-<body>
-  <div class="container-xxl">
-    <header class="header ">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-xxl">
-          <a class="navbar-brand" href="#">BAHRAM</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">popular</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">new</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Reading list</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active">topics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active">subscribe</a>
-              </li>
-            </ul>
-          </div>
+<body class="container-xxl">
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="index.html"><i class="web-icon"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="post.html">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="active" href="post.html">New</a>
+            </li>
+            <li class="nav-item">
+              <a href="post.html">Reading List</a>
+            </li>
+            <li class="nav-item">
+              <a href="post.html">Topics</a>
+            </li>
+            <li class="nav-item">
+              <a href="post.html">Subscirbe</a>
+            </li>
+          </ul>
+          <a href="/"><i class="search"></i></a>
         </div>
-      </nav>
-    </header>
-    <section class=" ">
+      </div>
+    </nav>
+  </header>
+
+  <section class="container text-left title-page">
+    <h3 class="h3-titulo">New</h3>
+    <p class="p-subtitulo">
+      Our latest web design tips, insights, and resoruces, hot off, the
+      presses.
+    </p>
+  </section>
+
+  <section class="posts bg-c-f9">
+    <p>Home - New</p>
+    <div class="container text-left">
       <div class="row">
-        <div class="new col-1">new</div>
-      </div>
-      <div class="descripcio">
-        <div class="row">
-          <div class="col-10">Our latest web design tips, tricks, insights, and resources, hot off the presses.</div>
+        <div class="col-lg-6">
+          <div class="images image1"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              How to Reinstall WordPress: 5 Different Methods Depending On
+              Your Needs
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="images image2"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              Web page layout 101: website anatomy every designer needs to
+              learn
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
         </div>
       </div>
-    </section>
-    <section class="background-img ">
-      <div class=" text-right">
-        <div class="row">
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/1.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Our latest web design tips, tricks, insights, and resources, hot off the presses.</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should be
-              doing it — and how to get started.</p>
-          </div>
 
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/2.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Website Downtime: Applicable Tips on How to Prevent It</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should be
-              doing it — and how to get started.</p>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="images image3"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
           </div>
+          <a href="post.html">
+            <p class="title">
+              Website Downtime: Applicable Tips on How to Prevent It
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
+        </div>
 
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/3.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Web page layout 101: website anatomy every designer needs to learn</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should
-              be
-              doing it — and how to get started.</p>
+        <div class="col-lg-6">
+          <div class="images image4"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
           </div>
-
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/4.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">6 Ways to Leverage Facebook for Marketing Success</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should be
-              doing it — and how to get started.</p>
-          </div>
-
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/5.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Updating WooCommerce: A Safe and In-Depth Guide</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should
-              be
-              doing it — and how to get started.</p>
-          </div>
-
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/6.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Social Media Image Sizes and Quick Tips for WordPress Users</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should be
-              doing it — and how to get started.</p>
-             </div>
-
-            <div class="col col-md-6 col-xs-12">
-              <img src="../assets/imgs/7.png" class="img-fluid" alt="50px"></img>
-              <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-              <a class="content">WP-CLI v2 Managing WordPress From the Terminal</a>
-              <p class="foot">User research is the reality check every project needs. Heres our guide to why you
-                should
-                be
-                doing it — and how to get started.</p>
-            </div>
-          
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/8.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">How to Create Outstanding Long-Form Articles in WordPress</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should
-              be
-              doing it — and how to get started.</p>
-          </div>
-
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/9.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Social Media Image Sizes and Quick Tips for WordPress Users</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you
-              should
-              be
-              doing it — and how to get started.</p>
-          </div>
-
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/10.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">How to Use Fiverr to Reduce Business Busywork</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should
-              be
-              doing it — and how to get started.</p>
-          </div>
-
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/11.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Email Marketing Best Practices for Sending Better Emails</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you
-              should
-              be
-              doing it — and how to get started.</p>
-          </div>
-
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/12.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Twitter Marketing Strategies to Beef up Your Social Game</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should
-              be
-              doing it — and how to get started.</p>
-          </div>
+          <a href="post.html">
+            <p class="title">
+              6 Ways to Leverage Facebook for Marketing Success
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
         </div>
       </div>
-    </section>
-    <section class="row align-items-center">
-      <div class="col">
 
-      </div>
-      <div class="col">
-        <button class="button">Load More</button>
-      </div>
-      <div class="col">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="images image5"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              Updating WooCommerce: A Safe and In-Depth Guide
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
+        </div>
 
-      </div>
-    </section>
-    <section class="topics">All Topics</section>
-    <section class="gird">
-      <div class="container text-center">
-        <div class="row row-col-2">
-          <div class="col-sm-3 pt-2 pb-2">
-            <p class="txt">Inspiration</p>
+        <div class="col-lg-6">
+          <div class="images image6"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
           </div>
-          <div class="col-sm-3 pt-2 pb-2 ">
-            <p class="txt">Resource</p>
-          </div>
-          <div class="col-sm-3 pt-2 pb-2">
-            <p class="txt">Announcements</p>
-          </div>
-          <div class="col-sm-3 pt-2 pb-2 ">
-            <p class="txt">Entrepreneurship</p>
-          </div>
-          <div class="col-sm-3 pt-2 pb-2 ">
-            <p class="txt">Tutorials</p>
-          </div>
-          <div class="col-sm-3 pt-2 pb-2">
-            <p class="txt">Freelancing</p>
-          </div>
-          <div class="col-sm-3 pt-2 pb-2">
-            <p class="txt">Design Process</p>
-          </div>
-          <div class="col-sm-3 pt-2 pb-2">
-            <p class="txt">Web Design</p>
-          </div>
+          <a href="post.html">
+            <p class="title">
+              WP-CLI v2 - Managing WordPress From the Terminal
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
         </div>
       </div>
-    </section>
-    <section class="subscribe">
-      <div class=" text-center">
-        <div class="row-md-center">
-          <div class="col col-md-6 col-xs-12">
-            <img src="../assets/imgs/1.png" class="img-fluid" alt="50px"></img>
-            <h1 class="titol">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</h1>
-            <a class="content">Our latest web design tips, tricks, insights, and resources, hot off the presses.</a>
-            <p class="foot">User research is the reality check every project needs. Heres our guide to why you should be
-              doing it — and how to get started.</p>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="images image7"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
           </div>
+          <a href="post.html">
+            <p class="title">
+              Social Media Image Sizes and Quick Tips for WordPress Users
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
         </div>
-    </section>
-    <footer class="footer">
-      <section class="row align-items-center">
-        <div class="col xs-12">
-          <h1 class="titol">bahram</h1>
+
+        <div class="col-lg-6">
+          <div class="images image8"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              How to Create Outstanding Long-Form Articles in WordPress
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
         </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="images image9"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              How to Use Fiverr to Reduce Business Busywork
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="images image10"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              Email Marketing Best Practices for Sending Better Emails
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="images image11"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              Google Site Verification: 7 Ways to Verify With Search Console
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="images image12"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              Twitter Marketing Strategies to Beef up Your Social Game
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="images image13"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              The Ultimate Step-by-Step Guide on Website Usability Testing
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started.
+          </p>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="images image14"></div>
+          <div class="flex">
+            <p class="autor">BY TOMAS LAURINAVICIUS IN DESIGN PROCESS</p>
+          </div>
+          <a href="post.html">
+            <p class="title">
+              8 Ways To Leverage LinkedIn for Marketing Success
+            </p>
+          </a>
+          <p class="subtitle pb-sm-5 mb-sm-2">
+            User research is the reality check every project needs. Here s our
+            guide to why you should be doing it — and how to get started. Hola
+            prueba
+          </p>
+        </div>
+      </div>
+      <div class="row m-5">
         <div class="col">
-          <h1 class="titol">o o o o o o o</h1>
+          <a class="load-more pe-4 ps-4 pt-2 pb-2" href="index.html">Load More</a>
         </div>
-        <div class="col">
-          <h1 class="titol">all rights reserved</h1>
-        </div>
-      </section>
-    </footer>
-  </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topics bg-c-f9">
+    <section class="container text-left title-page">
+      <h3 class="h3-title">All Topics</h3>
+    </section>
+    <div class="row p-2">
+      <div class="col-sm-3 pt-2 pb-2 topic">
+        <i class="bi bi-lightbulb-fill pe-2"></i>
+        <p>Inspiration</p>
+      </div>
+      <div class="col-sm-3 pt-2 pb-2 topic">
+        <i class="bi bi-geo-alt-fill pe-2"></i>
+        <p>Resource</p>
+      </div>
+      <div class="col-sm-3 pt-2 pb-2 topic">
+        <i class="bi bi-volume-up-fill pe-2"></i>
+        <p>Announcements</p>
+      </div>
+      <div class="col-sm-3 pt-2 pb-2 topic">
+        <i class="bi bi-rocket-takeoff-fill pe-2"></i>
+        <p>Entrepreneurship</p>
+      </div>
+    </div>
+    <div class="row p-2">
+      <div class="col-sm-3 pt-2 pb-2 topic">
+        <i class="bi bi-shield-fill-check pe-2"></i>
+        <p>Tutorials</p>
+      </div>
+      <div class="col-sm-3 pt-2 pb-2 topic">
+        <i class="bi bi-bell-fill pe-2"></i>
+        <p>Freelancing</p>
+      </div>
+      <div class="col-sm-3 pt-2 pb-2 topic">
+        <i class="bi bi-scissors pe-2"></i>
+        <p>Design Process</p>
+      </div>
+      <div class="col-sm-3 pt-2 pb-2 topic">
+        <i class="bi bi-window-stack pe-2"></i>
+        <p>Web Design</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section class="row">
+      <div class="col-4">
+        <a href="index.html"><i class="web-icon-f"></i></a>
+      </div>
+      <div class="col-4 footer-i">
+        <a href="vk.com"><i class="vk-i"></i></a>
+        <a href="pinterest.com"><i class="pint-i"></i></a>
+        <a href="instagram.com"><i class="inst-i"></i></a>
+        <a href="twitter.com"><i class="twit-i"></i></a>
+        <a href="facebook.com"><i class="face-i"></i></a>
+      </div>
+      <div class="col-4">
+        <p>All Rights Reserved 2018 3layers </p>
+      </div>
+    </section>
+  </footer>
 </body>
 
 </html>

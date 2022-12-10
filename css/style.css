@@ -1,0 +1,262 @@
+/* Beginning Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* End Imports */
+
+/* Beginning Header */
+
+body {
+  font-family: 'Open Sans';
+}
+
+header {
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  background: #ff5480;
+  border-radius: 10px;
+  width: 5%;
+  height: 35px;
+  color: white;
+}
+
+.web-icon {
+  width: 99px;
+  height: 29px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../assets/icons/web-icon.png);
+}
+
+.search {
+  background-image: url(../assets/icons/Icon.png);
+}
+
+ul>li>a {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.autor{
+    width: 377px;
+    height: 25px;
+    left: 465px;
+    top: 4274px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 58px;
+    
+    /* or 362% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+    
+    color: #9B9B9B;
+    
+    
+}
+
+.images {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+  border-radius: 10px;
+}
+
+.image1 {
+  background-image: url(../assets/imgs/1.png);
+}
+
+.image2 {
+  background-image: url(../assets/imgs/2.png);
+}
+
+.image3 {
+  background-image: url(../assets/imgs/3.png);
+}
+
+.image4 {
+  background-image: url(../assets/imgs/4.png);
+}
+
+.image5 {
+  background-image: url(../assets/imgs/5.png);
+}
+
+.image6 {
+  background-image: url(../assets/imgs/6.png);
+}
+
+.image7 {
+  background-image: url(../assets/imgs/7.png);
+}
+
+.image8 {
+  background-image: url(../assets/imgs/8.png);
+}
+
+.image9 {
+  background-image: url(../assets/imgs/9.png);
+}
+
+.image10 {
+  background-image: url(../assets/imgs/10.png);
+}
+
+.image11 {
+  background-image: url(../assets/imgs/11.png);
+}
+
+.image12 {
+  background-image: url(../assets/imgs/12.png);
+}
+
+.image13 {
+  background-image: url(../assets/imgs/13.png);
+}
+
+.image14 {
+  background-image: url(../assets/imgs/14.png);
+}
+
+
+.col-lg-6 div {
+  justify-content: left;
+}
+
+.flex p {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.h3-titulo {
+  font-size: 36px;
+  font-weight: 70;
+  margin-top:100px;
+}
+
+.bg-c-f9 {
+    background-color: #f9f9f9;
+}
+
+.p-subtitulo {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom:100px;
+}
+
+
+
+.title{
+  font-size: 29px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.subtitle{
+  color: #999;
+  font-size: 16px;
+  text-align: left;
+}
+
+.load-more {
+  border: 2px solid #FF5480;
+  border-radius: 40px;
+  color: #FF5480;
+  transition-duration: 0.25s;
+}
+
+.load-more:hover {
+  background-color: #FF5480;
+  color: whitesmoke;
+}
+
+/* End Posts */
+
+/* Beginning Topics */
+
+.topic {
+  display: flex;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0835598);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* End Topics */
+
+/* Beginning post.html CSS */
+
+.posts {
+  text-align: center;
+}
+
+.post-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+/* End post.html CSS */
+
+/* Beginning Footer Icons */
+
+footer .col-4 {
+  text-align: center;
+}
+
+.web-icon-f {
+  width: 99px;
+  height: 29px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../assets/icons/web-icon-f.png);
+}
+
+.footer-i>a>i {
+  height: 20px;
+  width: 35px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.vk-i {
+  background-image: url(../assets/icons/Vk.png);
+}
+
+.pint-i {
+  background-image: url(../assets/icons/Pinterest.png);
+}
+
+.inst-i {
+  background-image: url(../assets/icons/Instagram.png);
+}
+
+.twit-i {
+  background-image: url(../assets/icons/Twitter.png);
+}
+
+.face-i {
+  background-image: url(../assets/icons/Facebook.png);
+}
+
+/* End Footer Icons */
