@@ -21,6 +21,12 @@ header {
   align-items: center;
 }
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -147,17 +153,14 @@ ul>li>a {
   margin-right: 1%;
 }
 
-.h3-titulo {
+.titulo {
   font-size: 36px;
-  font-weight: 70;
+  font-weight:900;
   margin-top:100px;
 }
 
-.bg-c-f9 {
-    background-color: #f9f9f9;
-}
 
-.p-subtitulo {
+.subtitulo {
   font-size: 18px;
   font-weight: 600;
   margin-bottom:100px;
@@ -166,9 +169,11 @@ ul>li>a {
 
 
 .title{
+    font-family: 'Open Sans';
+font-style: normal;
   font-size: 29px;
   text-align: left;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .subtitle{
@@ -182,16 +187,14 @@ ul>li>a {
   border-radius: 40px;
   color: #FF5480;
   transition-duration: 0.25s;
+  margin-top:100px;
+  margin-bottom:200px;
 }
 
 .load-more:hover {
   background-color: #FF5480;
   color: whitesmoke;
 }
-
-/* End Posts */
-
-/* Beginning Topics */
 
 .topic {
   display: flex;
@@ -201,29 +204,21 @@ ul>li>a {
   justify-content: center;
 }
 
-/* End Topics */
-
-/* Beginning post.html CSS */
-
-.posts {
-  text-align: center;
-}
-
-.post-title {
+.post-title{
   font-size: 36px;
   font-weight: 700;
   color: #4a4a4a;
 }
 
-/* End post.html CSS */
-
-/* Beginning Footer Icons */
+.c-t{
+    margin-top:14px;
+}
 
 footer .col-4 {
   text-align: center;
 }
 
-.web-icon-f {
+.web-icon-f{
   width: 99px;
   height: 29px;
   display: block;
@@ -232,18 +227,18 @@ footer .col-4 {
   background-image: url(../assets/icons/web-icon-f.png);
 }
 
-.footer-i>a>i {
+.footer-i>a>i{
   height: 20px;
   width: 35px;
   display: inline-block;
   background-repeat: no-repeat;
 }
 
-.vk-i {
+.vk-i{
   background-image: url(../assets/icons/Vk.png);
 }
 
-.pint-i {
+.pint-i{
   background-image: url(../assets/icons/Pinterest.png);
 }
 
@@ -259,4 +254,20 @@ footer .col-4 {
   background-image: url(../assets/icons/Facebook.png);
 }
 
-/* End Footer Icons */
+.copyright{
+    height: 19px;
+left: 0%;
+right: 0%;
+top: calc(50% - 19px/2 - 2px);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+/* identical to box height */
+text-align: right;
+
+color: #9B9B9B;
+}
