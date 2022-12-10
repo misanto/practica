@@ -1,10 +1,8 @@
-/* Beginning Imports */
+/* importam les fonts de lletra */
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-/* End Imports */
-
-/* Beginning Header */
+/* Inici del codi de header */
 
 body {
   font-family: 'Open Sans';
@@ -53,6 +51,10 @@ a {
   background-image: url(../assets/icons/Icon.png);
 }
 
+/* Fi del codi de header */
+
+/* Inici del codi de body */
+
 ul>li>a {
   padding: 10px;
   margin-left: 20px;
@@ -69,8 +71,6 @@ ul>li>a {
     font-weight: 400;
     font-size: 16px;
     line-height: 58px;
-    
-    /* or 362% */
     display: flex;
     align-items: center;
     letter-spacing: -0.1px;
@@ -80,12 +80,16 @@ ul>li>a {
     
 }
 
+/* Inici de la seccio de images */
+
 .images {
   background-repeat: no-repeat;
   background-size: cover;
   height: 360px;
   border-radius: 10px;
 }
+
+/* Links de les imatges 1-14 */
 
 .image1 {
   background-image: url(../assets/imgs/1.png);
@@ -143,6 +147,7 @@ ul>li>a {
   background-image: url(../assets/imgs/14.png);
 }
 
+/* fi de la seccio de imatges */
 
 .col-lg-6 div {
   justify-content: left;
@@ -159,14 +164,11 @@ ul>li>a {
   margin-top:100px;
 }
 
-
 .subtitulo {
   font-size: 18px;
   font-weight: 600;
   margin-bottom:100px;
 }
-
-
 
 .title{
     font-family: 'Open Sans';
@@ -180,7 +182,10 @@ font-style: normal;
   color: #999;
   font-size: 16px;
   text-align: left;
+  margin-top:15px;
 }
+
+/* boton */
 
 .load-more {
   border: 2px solid #FF5480;
@@ -195,6 +200,8 @@ font-style: normal;
   background-color: #FF5480;
   color: whitesmoke;
 }
+
+/* inici de la seccio de topics */
 
 .topic {
   display: flex;
@@ -227,6 +234,27 @@ footer .col-4 {
   background-image: url(../assets/icons/web-icon-f.png);
 }
 
+.subscribe{
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    width: 523px;
+    height: 70px;
+    left: 776px;
+    top: 6425px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0835598);
+    border-radius: 40px;
+}
+
+
+/* Fi del codi de body */
+
+/* Inici del codi de footer */
+
 .footer-i>a>i{
   height: 20px;
   width: 35px;
@@ -234,23 +262,23 @@ footer .col-4 {
   background-repeat: no-repeat;
 }
 
-.vk-i{
+.vk{
   background-image: url(../assets/icons/Vk.png);
 }
 
-.pint-i{
+.pinterest{
   background-image: url(../assets/icons/Pinterest.png);
 }
 
-.inst-i {
+.instagram{
   background-image: url(../assets/icons/Instagram.png);
 }
 
-.twit-i {
+.twitter{
   background-image: url(../assets/icons/Twitter.png);
 }
 
-.face-i {
+.facebook{
   background-image: url(../assets/icons/Facebook.png);
 }
 
@@ -265,9 +293,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-
-/* identical to box height */
 text-align: right;
 
 color: #9B9B9B;
+}
+
+/* Fi del codi de footer */
+
+/* Fi del codi de #NEW */
+
+/* Inici del codi de #POST */
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
