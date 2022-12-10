@@ -61,7 +61,6 @@ ul>li>a {
 }
 
 .autor{
-    width: 377px;
     height: 25px;
     left: 465px;
     top: 4274px;
@@ -347,7 +346,6 @@ letter-spacing: -0.175px;
     display: flex;
     flex-direction: column;
     padding: 25px;
-    align-items: flex-start;
 }
 
 .señor{
@@ -360,7 +358,11 @@ letter-spacing: -0.175px;
     height: 82px;
     width: 82px;
     justify-content: center;
-    margin-bottom: 182px;
+    border-radius: 90px;
+}
+
+.link{
+color: #27AEFF;
 }
 
 .c1{
@@ -375,6 +377,13 @@ letter-spacing: -0.175px;
 
 .col-lg-5 div {
   justify-content: right;
+}
+
+.col-lg-8{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
@@ -401,5 +410,37 @@ letter-spacing: -0.375px;
 
 color: #FF5480;
 padding-top:9px;
+
+}
+
+.row-replyes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-new{
+  margin-bottom:200px;
+}
+
+.subtitol3{
+  width: 972px;
+height: 138px;
+left: 563px;
+top: 3879px;
+
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 300;
+font-size: 24px;
+line-height: 58px;
+
+/* or 242% */
+text-align: center;
+letter-spacing: -0.15px;
+
+color: #9283E0;
+
 
 }
