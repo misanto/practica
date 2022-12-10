@@ -362,3 +362,32 @@ letter-spacing: -0.175px;
     justify-content: center;
     margin-bottom: 182px;
 }
+
+.comment1{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 46px;
+
+/* or 164% */
+display: flex;
+align-items: center;
+letter-spacing: -0.175px;
+
+color: #111210;
+}
+
+.comment2{
+    display:flex;
+    justify-content: end;
+    box-sizing: border-box;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 1.18%;
+
+border: 2px solid #FF5480;
+border-radius: 10px;
+
+}
