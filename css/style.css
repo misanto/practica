@@ -310,3 +310,18 @@ color: #9B9B9B;
     justify-content: center;
     align-items: center;
 }
+
+.subtitol2{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 46px;
+
+/* or 164% */
+letter-spacing: -0.175px;
+
+color: #111210;
+
+
+}
