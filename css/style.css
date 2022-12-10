@@ -363,31 +363,43 @@ letter-spacing: -0.175px;
     margin-bottom: 182px;
 }
 
-.comment1{
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 46px;
-
-/* or 164% */
-display: flex;
-align-items: center;
-letter-spacing: -0.175px;
-
-color: #111210;
+.c1{
+  display: flex;
+  justify-content: flex-start;
 }
 
+.c2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.col-lg-5 div {
+  justify-content: right;
+}
+
+
 .comment2{
-    display:flex;
-    justify-content: end;
-    box-sizing: border-box;
-left: 0%;
+  left: 0%;
 right: 0%;
 top: 0%;
 bottom: 1.18%;
 
 border: 2px solid #FF5480;
 border-radius: 10px;
+
+height: 50px;
+left: 12.12%;
+right: 11.79%;
+top: calc(50% - 50px/2 + 11px);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: -0.375px;
+
+color: #FF5480;
+padding-top:9px;
 
 }
