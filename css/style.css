@@ -1,39 +1,30 @@
 /* importam les fonts de lletra */
-
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
 /* Inici del codi de header */
-
-body {
+body{
   font-family: 'Open Sans';
 }
-
-header {
+header{
   background-color: white;
 }
-
-.flex {
+.flex{
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
 }
-
-
-a {
+a{
   color: black;
   text-decoration: none;
 }
-
-.active {
+.active{
   background: #ff5480;
   border-radius: 10px;
   width: 5%;
   height: 35px;
   color: white;
 }
-
-.web-icon {
+.web-icon{
   width: 99px;
   height: 29px;
   display: block;
@@ -41,109 +32,95 @@ a {
   background-position: center;
   background-image: url(../assets/icons/web-icon.png);
 }
-
-.search {
+.search{
   background-image: url(../assets/icons/Icon.png);
 }
-
 /* Fi del codi de header */
-
 /* Inici del codi de body */
-
-ul>li>a {
+ul>li>a{
   padding: 10px;
   margin-left: 20px;
 }
-
-
 /* Inici de la seccio de images */
-
-.images {
+.images{
   background-repeat: no-repeat;
   background-size: cover;
   height: 360px;
   border-radius: 10px;
 }
-
 /* Links de les imatges 1-14 */
-
-.image1 {
+.image1{
   background-image: url(../assets/imgs/1.png);
 }
-
-.image2 {
+.image2{
   background-image: url(../assets/imgs/2.png);
 }
-
-.image3 {
+.image3{
   background-image: url(../assets/imgs/3.png);
 }
-
-.image4 {
+.image4{
   background-image: url(../assets/imgs/4.png);
 }
-
-.image5 {
+.image5{
   background-image: url(../assets/imgs/5.png);
 }
-
-.image6 {
+.image6{
   background-image: url(../assets/imgs/6.png);
 }
-.image7 {
+.image7{
   background-image: url(../assets/imgs/7.png);
 }
-.image8 {
+.image8{
   background-image: url(../assets/imgs/8.png);
 }
-.image9 {
+.image9{
   background-image: url(../assets/imgs/9.png);
 }
-.image10 {
+.image10{
   background-image: url(../assets/imgs/10.png);
 }
-.image11 {
+.image11{
   background-image: url(../assets/imgs/11.png);
 }
-.image12 {
+.image12{
   background-image: url(../assets/imgs/12.png);
 }
-.image13 {
+.image13{
   background-image: url(../assets/imgs/13.png);
 }
-.image14 {
+.image14{
   background-image: url(../assets/imgs/14.png);
 }
 /* imatges de la pagina #POSTS */
-.image15 {
+.image15{
     background-image: url(../assets/imgs/15.png);
 }
 .image16 {
     background-image: url(../assets/imgs/16.png);
 }
-.image17 {
+.image17{
     background-image: url(../assets/imgs/17.png);
 }
-.image18 {
+.image18{
     background-image: url(../assets/imgs/18.png);
 }
-.image19 {
+.image19{
     background-image: url(../assets/imgs/19.png);
 }
 /* fi de la seccio de imatges */
-.col-lg-6 div {
+.col-lg-6 div{
   justify-content: left;
 }
-.flex p {
+.flex p{
   margin-left: 1%;
   margin-right: 1%;
 }
-.titulo {
+.titulo{
   font-size: 36px;
   font-weight:900;
   margin-top:100px;
 }
-.subtitulo {
+.subtitulo{
   font-size: 18px;
   font-weight: 600;
   margin-bottom:100px;
@@ -162,7 +139,7 @@ font-style: normal;
   margin-top:15px;
 }
 /* boton */
-.load-more {
+.load-more{
   border: 2px solid #FF5480;
   border-radius: 40px;
   color: #FF5480;
@@ -170,12 +147,12 @@ font-style: normal;
   margin-top:100px;
   margin-bottom:200px;
 }
-.load-more:hover {
+.load-more:hover{
   background-color: #FF5480;
   color: whitesmoke;
 }
 /* inici de la seccio de topics */
-.topic {
+.topic{
   display: flex;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0835598);
   border-radius: 8px;
@@ -185,7 +162,7 @@ font-style: normal;
 .c-t{
     margin-top:14px;
 }
-footer .col-4 {
+footer .col-4{
   text-align: center;
 }
 .web-icon-f{
@@ -257,9 +234,6 @@ color: #27AEFF;
   justify-content: flex-start;
 }
 .comment2{
-  left: 0%;
-right: 0%;
-top: 0%;
 bottom: 1.18%;
 border: 2px solid #FF5480;
 border-radius: 10px;
@@ -275,9 +249,6 @@ line-height: 25px;
 letter-spacing: -0.375px;
 color: #FF5480;
 padding-top:9px;
-}
-.home-new{
-  margin-bottom:200px;
 }
 .subtitol3{
   width: 972px;
