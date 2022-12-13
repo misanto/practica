@@ -10,8 +10,6 @@ background-color: white;
 .flex{
 display:flex;
 justify-content:center;
-text-align:center;
-align-items:center;
 }
 a{
 color: black;
@@ -121,6 +119,7 @@ margin-top:100px;
 .subtitol{
 font-size:18px;
 font-weight:600;
+margin-top:50px;
 margin-bottom:100px;
 }
 .title{
@@ -172,6 +171,7 @@ background-image:url(../assets/icons/web-icon-f.png);
 .subscribe{
 display:flex;
 flex-direction:column;
+align-items:center;
 }
 .search{
 width:523px;
@@ -241,7 +241,6 @@ color: #FF5480;
 padding-top:9px;
 }
 .subtitol3{
-width:972px;
 font-style:italic;
 font-size:24px;
 line-height:58px;
