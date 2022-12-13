@@ -91,7 +91,7 @@ background-image:url(../assets/imgs/14.png);
 .image15{
 background-image:url(../assets/imgs/15.png);
 }
-.image16 {
+.image16{
 background-image:url(../assets/imgs/16.png);
 }
 .image17{
@@ -149,7 +149,7 @@ color: whitesmoke;
 /* inici de la seccio de topics */
 .topic{
 display:flex;
-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0835598);
+box-shadow:0px 0px 8px rgba(0, 0, 0, 0.0835598);
 border-radius:8px;
 align-items:center;
 justify-content:center;
