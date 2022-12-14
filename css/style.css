@@ -28,9 +28,6 @@ background-repeat:no-repeat;
 background-position:center;
 background-image:url(../assets/icons/web-icon.png);
 }
-.search{
-background-image:url(../assets/icons/Icon.png);
-}
 /* Fi del codi de header */
 /* Inici del codi de body */
 ul>li>a{
@@ -38,70 +35,11 @@ padding:10px;
 margin-left:20px;
 }
 /* Inici de la seccio de images */
-.images{
+.img-fluid{
 background-repeat:no-repeat;
 background-size:cover;
 height:360px;
 border-radius:10px;
-}
-/* Links de les imatges 1-14 */
-.image1{
-background-image:url(../assets/imgs/1.png);
-}
-.image2{
-background-image:url(../assets/imgs/2.png);
-}
-.image3{
-background-image:url(../assets/imgs/3.png);
-}
-.image4{
-background-image:url(../assets/imgs/4.png);
-}
-.image5{
-background-image:url(../assets/imgs/5.png);
-}
-.image6{
-background-image:url(../assets/imgs/6.png);
-}
-.image7{
-background-image:url(../assets/imgs/7.png);
-}
-.image8{
-background-image:url(../assets/imgs/8.png);
-}
-.image9{
-background-image:url(../assets/imgs/9.png);
-}
-.image10{
-background-image:url(../assets/imgs/10.png);
-}
-.image11{
-background-image:url(../assets/imgs/11.png);
-}
-.image12{
-background-image:url(../assets/imgs/12.png);
-}
-.image13{
-background-image:url(../assets/imgs/13.png);
-}
-.image14{
-background-image:url(../assets/imgs/14.png);
-}
-/* imatges de la pagina #POSTS */
-.image15{
-background-image:url(../assets/imgs/15.png);
-}
-.image16{
-background-image:url(../assets/imgs/16.png);
-}
-.image17{
-background-image:url(../assets/imgs/17.png);
-}
-.image18{
-background-image:url(../assets/imgs/18.png);
-}
-.image19{
-background-image:url(../assets/imgs/19.png);
 }
 /* fi de la seccio de imatges */
 .col-lg-6 div{
